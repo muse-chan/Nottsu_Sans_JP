@@ -1,0 +1,19 @@
+{
+  "name": "nottsu_sans_jp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts/build.js",
+  "scripts": {
+    "build": "npm run fix && node scripts/build.js && npm run sample",
+    "fix": "node scripts/fix.js",
+    "pages:build": "node scripts/pages.js",
+    "sample": "node scripts/sample.js",
+    "test": "node scripts/verify.js"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "harfbuzzjs": "^1.6.4",
+    "sharp": "^0.35.5"
+  }
+}

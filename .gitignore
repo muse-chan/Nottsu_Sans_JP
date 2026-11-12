@@ -1,0 +1,9 @@
+node_modules/
+/data/*
+!/data/Noto_Sans_JP.zip
+!/data/nottsu.png
+!/data/samples/
+/data/samples/*
+!/data/samples/*.txt
+/dist/
+/dist-pages/

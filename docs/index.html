@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Try Nottsu Sans JP, a four-color variable typeface based on Noto Sans JP.">
+  <title>Nottsu Sans JP · Type Tester</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./demo.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="frame header-row">
+      <a class="brand" href="./">
+        <img src="./assets/palette.png" alt="" width="24" height="24">
+        Nottsu Sans JP
+      </a>
+      <a class="download" href="./assets/NottsuSansJP-VariableFont_wght.ttf" download>Download TTF <span aria-hidden="true">↓</span></a>
+    </div>
+  </header>
+
+  <main class="frame">
+    <section class="hero" aria-labelledby="title">
+      <div>
+        <h1 id="title" class="color-type">Nottsu Sans JP</h1>
+        <p>A four-color variable typeface based on Noto Sans JP.</p>
+      </div>
+      <figure class="palette">
+        <img src="./assets/palette.png" alt="Four colors meet at the center of each glyph: red, violet, blue, and cyan." width="148" height="148">
+      </figure>
+    </section>
+
+    <section class="tester" aria-labelledby="tester-title">
+      <div class="tester-heading">
+        <h2 id="tester-title">Type tester</h2>
+        <button class="reset" type="button" id="reset">Reset</button>
+      </div>
+
+      <div class="tester-panel">
+        <div class="controls">
+          <fieldset class="samples">
+            <legend>Sample</legend>
+            <div class="sample-buttons">
+              <button type="button" data-sample="mixed" aria-pressed="true">Mixed</button>
+              <button type="button" data-sample="japanese" aria-pressed="false">Japanese</button>
+              <button type="button" data-sample="latin" aria-pressed="false">Latin</button>
+            </div>
+          </fieldset>
+
+          <label class="control-label" for="sample-text">Text</label>
+          <textarea id="sample-text" lang="ja" rows="3" spellcheck="false">色であそぶ、ことば。
+Aa1あア漢</textarea>
+
+          <div class="range-control">
+            <label for="weight">Weight</label>
+            <output for="weight" id="weight-value">400</output>
+            <input type="range" id="weight" min="100" max="900" value="400">
+          </div>
+
+          <div class="range-control">
+            <label for="size">Size</label>
+            <output for="size" id="size-value">68px</output>
+            <input type="range" id="size" min="18" max="144" value="68">
+          </div>
+        </div>
+
+        <div class="preview">
+          <p class="font-status" id="font-status" role="status">Loading the font…</p>
+          <div class="specimen color-type" id="specimen" lang="ja">色であそぶ、ことば。
+Aa1あア漢</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="frame footer">
+    <span>Nottsu Sans JP</span>
+    <a href="./assets/OFL.txt">SIL Open Font License 1.1</a>
+  </footer>
+</body>
+</html>
