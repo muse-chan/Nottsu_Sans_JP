@@ -18,7 +18,7 @@ Noto Sans JP をもとに、文字の中心から4色で塗ったフォントで
 
 ![字形を塗る４色の配色見本](./0-color.png)
 
-配色の出典は @Nottsu_fun26（https://twitter.com/Nottsu_fun26）です。
+配色の出典は @Nottsu_fun26 (https://twitter.com/Nottsu_fun26) です。
 
 ## 使い方
 
