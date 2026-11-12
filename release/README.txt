@@ -3,6 +3,8 @@ Nottsu Sans JP
 
 Noto Sans JP の文字を、字形の中心から広がる４色で塗ったフォントです。
 
+配色の出典は @Nottsu_fun26（https://twitter.com/Nottsu_fun26）です。
+
 インストール
 ------------
 
