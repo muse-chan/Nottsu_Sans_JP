@@ -18,6 +18,8 @@ Noto Sans JP をもとに、文字の中心から4色で塗ったフォントで
 
 ![字形を塗る４色の配色見本](./0-color.png)
 
+色: [@Nottsu_fun26](https://twitter.com/Nottsu_fun26)
+
 ## 使い方
 
 GitHub Releases の ZIP を解凍し、太さを 100〜900 の範囲で調整できる可変 TTF か、`static/` にある９種類の固定 TTF から使いたいファイルをインストールしてください。色付きで表示するには、OpenType の COLR v1 に対応したアプリが必要です。
